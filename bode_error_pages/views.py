@@ -1,6 +1,19 @@
 # -*- coding: utf-8 -*-
-from __future__ import unicode_literals
 
-from django.shortcuts import render
 
-# Create your views here.
+from django.views.generic.base import TemplateView
+
+
+class Error403View(TemplateView):
+
+    template_name = 'website/errors/403.html'
+
+
+class Error404View(TemplateView):
+
+    template_name = 'website/errors/404.html'
+
+
+class Error500View(TemplateView):
+
+    template_name = 'website/errors/500.html'

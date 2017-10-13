@@ -25,7 +25,7 @@ with open(('README.rst'), encoding='utf-8') as f:
 
 setup(
     name='bode-django-error-pages',
-    version='0.0.1',
+    version='0.0.2',
     description='This is a simple project to handle http errors responses to Bode Django Projects',
     long_description=long_description,
 
